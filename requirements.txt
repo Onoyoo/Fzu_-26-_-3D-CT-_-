@@ -1,0 +1,32 @@
+# LUNA16肺结节检测项目依赖
+# 安装命令: pip install -r requirements.txt
+# 清华源: pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
+
+# ========== 医学图像处理库 ==========
+# MONAI - 医学图像深度学习框架
+monai>=1.3.0
+
+# TorchIO - 医学图像数据增强
+torchio>=0.18.86
+
+# SimpleITK - 底层医学图像处理（用于CT数据加载）
+SimpleITK>=2.2.0
+
+# ========== 数据处理和科学计算 ==========
+numpy>=1.21.0
+pandas>=1.5.0
+scipy>=1.10.0
+
+# ========== 可视化 ==========
+matplotlib>=3.7.0
+
+# ========== 工具库 ==========
+tqdm>=4.65.0          # 进度条显示
+tensorboard>=2.13.0   # 训练可视化
+
+# ========== 图像处理 ==========
+opencv-python>=4.8.0  # 图像处理辅助
+pillow>=10.0.0        # 图像处理
+
+# ========== 其他工具 ==========
+pyyaml>=6.0           # YAML配置文件支持
